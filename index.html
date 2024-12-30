@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <marquee><h3>Change html element dynamically</h3></marquee>
+        <button onclick="fun1();">Click me</button>
+        <button onclick="fun2();">Click to open</button>
+
+        <p id="text"></p>
+
+        <script>
+            function fun1()
+            {
+
+                document.getElementById("text").innerHTML="Hello and welcome";
+            }
+            
+            function fun2()
+            {
+                document.getElementById("text").innerHTML="paragraph id can be anything"
+            }
+        </script>
+    </body>
+</html>
